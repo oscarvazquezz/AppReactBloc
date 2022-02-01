@@ -38,6 +38,7 @@ function AppUI() {
             onComplete={() => completeTodo(todo.text)}
             onDelete={() => deleteTodo(todo.text)}
           />
+          
         ))}
       </TodoList>
 
