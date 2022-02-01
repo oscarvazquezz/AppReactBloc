@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AppReactBloc/static/css/main.3b55ea40.css",
+    "main.js": "/AppReactBloc/static/js/main.bbcf5e30.js",
+    "static/media/bloc.png": "/AppReactBloc/static/media/bloc.6208ac1726976a1b3904.png",
+    "static/media/word.png": "/AppReactBloc/static/media/word.1ebc9d8cfbab1d058dba.png",
+    "static/media/error.png": "/AppReactBloc/static/media/error.fd04ba67ebcbcb6b8448.png",
+    "index.html": "/AppReactBloc/index.html",
+    "static/media/search.svg": "/AppReactBloc/static/media/search.6c95e853cf5a1eedd6e2.svg",
+    "static/media/close.svg": "/AppReactBloc/static/media/close.244b66874c46718f7e06.svg",
+    "static/media/close_white.svg": "/AppReactBloc/static/media/close_white.604f17ae9e7f7ab96de7.svg",
+    "static/media/done.svg": "/AppReactBloc/static/media/done.6a318b8dd3700fbfffdb.svg",
+    "main.3b55ea40.css.map": "/AppReactBloc/static/css/main.3b55ea40.css.map",
+    "main.bbcf5e30.js.map": "/AppReactBloc/static/js/main.bbcf5e30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b55ea40.css",
+    "static/js/main.bbcf5e30.js"
+  ]
+}
