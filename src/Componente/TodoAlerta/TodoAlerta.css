@@ -1,0 +1,32 @@
+
+h5{
+    font-size: 25px;
+    margin: 20px auto 0px;
+    color: rgb(243, 243, 243);
+}
+
+
+.Containers{
+    height: 260px;
+    width: 300px;
+}
+
+img{
+    margin-top: -40px;
+    width: 300px;
+    height: 300px;
+}
+
+[id="1"]{
+    margin-top: -50px;
+    animation: rotation 2s ease-out;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }

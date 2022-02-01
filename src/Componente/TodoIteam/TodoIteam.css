@@ -1,0 +1,82 @@
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    margin-top: 24px;
+    border-radius:5px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  }
+  
+  .TodoItem-p {
+    margin: 24px 0 24px 0px;
+    width: calc(100% - 90px);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    overflow:hidden;
+    text-align: justify;
+    
+  }
+  
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+    
+  }
+  
+  .Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    /* background-color: #CCC; */
+  }
+  
+  .Icon-check {
+    position: absolute;
+    left: 5px;
+    background: url("../iconos/done.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-position-y:2px;
+    background-position-x: 2px;
+  }
+  
+  .Icon-check--active {
+    background-color: #4caf50;
+  }
+  
+
+  .Icon-delete {
+    position: absolute;
+    right: 5px;
+    background: url("../iconos/close.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-position-y:3px;
+    background-position-x: 3px;
+  }
+
+  .Icon-delete:hover,.Icon-delete--active {
+    background: url("../iconos/close_white.svg");
+    background-repeat: no-repeat;
+    background-position-y:2px;
+    background-position-x: 2px;
+    background-color: red;
+  }
+
+  @media (max-width: 720px){
+    .TodoItem{
+        width: 330px;
+    }
+  }

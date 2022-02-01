@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+	margin: 0;
+  box-sizing: border-box;
+  font-family: "Sunflower", sans-serif;
+  outline: none;
+  text-decoration: none;
+  background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-attachment:fixed;
+  background-repeat: no-repeat ;
+
+}
+
+#root {
+  margin: 0 0px;
+  position: relative;
+}
