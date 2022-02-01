@@ -28,7 +28,6 @@ function TodoAlerta({msg,img}){
     return (
         <div className="Containers">
             <h5>{msg}</h5>
-            <img id={id} src={img}/>
         </div>
     )
 }
